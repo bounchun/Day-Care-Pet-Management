@@ -5,7 +5,7 @@
 
 The Pet Day Care Management System is a Java console application that helps staff manage pets during periods when their owners are at work, travelling, or on vacation.
 The system eliminates paper-based records and sticky notes by providing a structured, user-friendly digital solution that is designed to evolve into a future mobile application.
-The system offers comprehensive pet management features, including adding, updating, deleting, searching, sorting, and reporting, while ensuring capacity and pricing rules are strictly applied.
+It offers comprehensive pet management features, including adding, updating, deleting, searching, sorting, and reporting, while ensuring capacity and pricing rules are strictly applied.
 
 ###🧩 Core Features
 
@@ -46,3 +46,61 @@ o	Name
 o	Age
 o	Owner
 o	Days attending
+
+##🏗️ Project Structure
+
+```
+src/
+├── main/
+│   └── Driver.java
+├── controllers/
+│   └── DayCare.java
+├── models/
+│   ├── Pet.java
+│   ├── Dog.java
+│   └── Cat.java
+└── utils/
+    ├── ScannerInput.java
+    ├── Utilities.java
+    ├── DogBreedUtility.java
+    └── CatToyUtility.java
+
+```
+
+##🏗️ System Architecture
+
+```
+Driver (Console UI)
+        ↓
+DayCare (Controller / Business Logic)
+        ↓
+Pet (Abstract Model)
+   ↳ Dog
+   ↳ Cat
+```
+The system is implemented using a layered architectural approach: 
+•	Driver
+Coordinates all user interactions, including menu presentation and navigation.
+•	DayCare (Controller)
+Manages the core business logic such as pet management, reporting, searching, sorting, and data persistence.
+•	Models (Pet, Dog, Cat)
+Define the domain entities and encapsulate pet-specific data and behaviour.
+•	Utilities
+Provide reusable helper methods for input processing, validation, and data formatting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
