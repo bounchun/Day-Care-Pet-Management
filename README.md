@@ -129,7 +129,7 @@ Pet (Abstract Model)
 The system is implemented using a layered architectural approach: 
 
 
-•**	Driver**
+•    **Driver**
 
 
 Coordinates all user interactions, including menu presentation and navigation.
@@ -188,7 +188,7 @@ Provide reusable helper methods for input processing, validation, and data forma
 
 
 
-##🔒 **Input Validation and Error Handling **
+##🔒 **Input Validation and Error Handling**
 
 •	All numeric and textual user input is validated using the ScannerInput utility
 
@@ -252,7 +252,7 @@ Pet data is saved and loaded using Java object serialization:
 ```
 
 
-## 🧪 **Sample Usage **
+## 🧪 **Sample Usage**
 
 •	Register new pets (dogs or cats) with validated input data
 
@@ -266,7 +266,7 @@ Pet data is saved and loaded using Java object serialization:
 •	Save pet data before exiting the application and reload it later
 
 
-## ⚠️**Assumptions & Constraints **
+## ⚠️**Assumptions & Constraints**
 
 •	The application is limited to two pet categories: dogs and cats
 
