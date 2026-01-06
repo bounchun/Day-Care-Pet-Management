@@ -129,70 +129,115 @@ Pet (Abstract Model)
 The system is implemented using a layered architectural approach: 
 
 
-•	Driver
+•**	Driver**
 
 
 Coordinates all user interactions, including menu presentation and navigation.
 
 
-•	DayCare (Controller)
+•	**DayCare (Controller)**
 
 
 Manages the core business logic such as pet management, reporting, searching, sorting, and data persistence.
 
 
-•	Models (Pet, Dog, Cat)
+•	**Models (Pet, Dog, Cat)**
 
 
 Define the domain entities and encapsulate pet-specific data and behaviour.
 
 
-•	Utilities
+•	**Utilities**
 
 
 Provide reusable helper methods for input processing, validation, and data formatting.
 
 ##🧠 **Object-Oriented Design**
 
-Abstraction & Inheritance
+**Abstraction & Inheritance**
 
 
 •	Pet is an abstract superclass
+
+
 •	Dog and Cat extend Pet
+
+
 •	Shared behaviour is defined once and reused
 
-Polymorphism
+**Polymorphism**
+
+
 •	All pets are stored as Pet
+
+
 •	Each pet calculates its own weekly fee automatically
+
+
 •	New animals (e.g. Rabbit) can be added without changing existing logic
 
-Encapsulation
+
+
+**Encapsulation**
+
+
 •	All fields are defined as private or protected and accessed via public getter and setter methods
+
+
 •	Business rules are isolated in the correct classes
+
+
 
 ##🧪 **Input Validation and Error Handling **
 
 •	All numeric and textual user input is validated using the ScannerInput utility
+
+
 •	Menu options are checked to ensure selections fall within valid ranges
+
+
 •	Access to collections is safeguarded through index validation
+
+
 •	Day care capacity constraints are enforced when adding new pets
+
+
 •	File input/output operations are enclosed in exception handling blocks to prevent system failures
+
+
 This ensures the system behaves predictably even when users make mistakes.
+
+
 
 ##💾 **Persistence (Save & Load)**
 
 Pet data is saved and loaded using Java object serialization:
+
+
 •	All data is stored in a file called pets.dat
+
+
 •	The Pet class implements the Serializable interface, enabling all subclasses to be saved and restored
+
+
 •	The system safely handles scenarios where the data file is missing or cannot be read
+
+
 
 ##▶️** How to Run**
 
 1.	Open the project using an IDE (IntelliJ, Visual Studio, Eclipse, etc.)
+
+
 2.	Verify that Java version 15 or higher is installed
+
+	
 3.	Run the main.Driver class
+
+	
 4.	Use the console menu instructions to interact with the application
-Show console screen
+
+	
 ```
 -------- Pet Day Care --------
 1) Pets CRUD Menu
@@ -205,20 +250,33 @@ Show console screen
 
 ==>>
 ```
-6.	2 submenus
+
 
 ## **Sample Usage **
 
 •	Register new pets (dogs or cats) with validated input data
+
+
 •	View reports detailing day care activity and statistics
+
+
 •	Search for and sort pets using a variety of criteria
+
+
 •	Save pet data before exiting the application and reload it later
+
 
 ## **Assumptions & Constraints **
 
 •	The application is limited to two pet categories: dogs and cats
+
+
 •	Dog breeds and cat toys are chosen from predefined selections
+
+
 •	Pricing rules are fixed and implemented within the model classes
+
+
 •	All sorting operations are implemented manually, without relying on built-in library sort methods
 
 🚀 Future Expansion
@@ -226,10 +284,15 @@ Show console screen
 The system is designed to support:
 
 •	New animal types (e.g. Rabbits)
+
+
 •	Mobile app interface
+
+
 •	Advanced analytics and reporting
 
-Author
+**Author**
+
 Boun Chun
 Pet Day Care Management System
 Version 1.0
