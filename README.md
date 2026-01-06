@@ -8,6 +8,8 @@ The Pet Day Care Management System is a Java console application that helps staf
 
 
 The system eliminates paper-based records and sticky notes by providing a structured, user-friendly digital solution that is designed to evolve into a future mobile application.
+
+
 It offers comprehensive pet management features, including adding, updating, deleting, searching, sorting, and reporting, while ensuring capacity and pricing rules are strictly applied.
 
 ###🧩 **Core Features**
