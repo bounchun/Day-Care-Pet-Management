@@ -33,7 +33,7 @@ It offers comprehensive pet management features, including adding, updating, del
   
   -Dog breed or cat favourite toy
   
-####📋 **Pet Management**
+####🐾 **Pet Management**
 
 •	View all pets currently in the day care
 
@@ -95,7 +95,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 -Days attending
 
-##🏗️ **Project Structure**
+##🗂️  **Project Structure**
 
 ```
 src/
@@ -188,7 +188,7 @@ Provide reusable helper methods for input processing, validation, and data forma
 
 
 
-##🧪 **Input Validation and Error Handling **
+##🔒 **Input Validation and Error Handling **
 
 •	All numeric and textual user input is validated using the ScannerInput utility
 
@@ -252,7 +252,7 @@ Pet data is saved and loaded using Java object serialization:
 ```
 
 
-## **Sample Usage **
+## 🧪 **Sample Usage **
 
 •	Register new pets (dogs or cats) with validated input data
 
@@ -266,7 +266,7 @@ Pet data is saved and loaded using Java object serialization:
 •	Save pet data before exiting the application and reload it later
 
 
-## **Assumptions & Constraints **
+## ⚠️**Assumptions & Constraints **
 
 •	The application is limited to two pet categories: dogs and cats
 
@@ -291,7 +291,7 @@ The system is designed to support:
 
 •	Advanced analytics and reporting
 
-**Author**
+## ✍️**Author**
 
 Boun Chun
 
