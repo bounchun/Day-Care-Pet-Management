@@ -116,17 +116,6 @@ src/
 
 ```
 
-## 🏗️ **System Architecture**
-
-```
-Driver (Console UI)
-        ↓
-DayCare (Controller / Business Logic)
-        ↓
-Pet (Abstract Model)
-   ↳ Dog
-   ↳ Cat
-```
 The system is implemented using a layered architectural approach: 
 
 
