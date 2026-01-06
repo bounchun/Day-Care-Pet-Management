@@ -1,6 +1,6 @@
 # Day-Care-Pet-Management
 
-🐶🐱 **Day Care Pet Management System**
+## 🐶🐱 **Day Care Pet Management System**
 
 ## 📌 **Project Overview**
 
@@ -12,9 +12,9 @@ The system eliminates paper-based records and sticky notes by providing a struct
 
 It offers comprehensive pet management features, including adding, updating, deleting, searching, sorting, and reporting, while ensuring capacity and pricing rules are strictly applied.
 
-###🧩 **Core Features**
+### 🧩 **Core Features**
 
-####📝 **Pet Registration**
+#### 📝 **Pet Registration**
 
 •	Register a new pet as either a Dog or Cat
 
@@ -33,7 +33,7 @@ It offers comprehensive pet management features, including adding, updating, del
   
   -Dog breed or cat favourite toy
   
-####🐾 **Pet Management**
+#### 🐾 **Pet Management**
 
 •	View all pets currently in the day care
 
@@ -46,7 +46,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 •	Enforce day care capacity limits
 
-####📊 **Reports & Insights**
+#### 📊 **Reports & Insights**
 
 •	List all pets
 
@@ -64,7 +64,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 •	Calculate total weekly income using polymorphism
 
-####🔍 **Search & Sort**
+#### 🔍 **Search & Sort**
 
 •	Search pets by:
 
@@ -95,7 +95,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 -Days attending
 
-##🗂️  **Project Structure**
+## 🗂️  **Project Structure**
 
 ```
 src/
@@ -115,7 +115,7 @@ src/
 
 ```
 
-##🏗️ **System Architecture**
+## 🏗️ **System Architecture**
 
 ```
 Driver (Console UI)
@@ -152,7 +152,7 @@ Define the domain entities and encapsulate pet-specific data and behaviour.
 
 Provide reusable helper methods for input processing, validation, and data formatting.
 
-##🧠 **Object-Oriented Design**
+## 🧠 **Object-Oriented Design**
 
 **Abstraction & Inheritance**
 
@@ -188,7 +188,7 @@ Provide reusable helper methods for input processing, validation, and data forma
 
 
 
-##🔒 **Input Validation and Error Handling**
+## 🔒 **Input Validation and Error Handling**
 
 •	All numeric and textual user input is validated using the ScannerInput utility
 
@@ -209,7 +209,7 @@ This ensures the system behaves predictably even when users make mistakes.
 
 
 
-##💾 **Persistence (Save & Load)**
+## 💾 **Persistence (Save & Load)**
 
 Pet data is saved and loaded using Java object serialization:
 
@@ -224,7 +224,7 @@ Pet data is saved and loaded using Java object serialization:
 
 
 
-##▶️** How to Run**
+## ▶️** How to Run**
 
 1.	Open the project using an IDE (IntelliJ, Visual Studio, Eclipse, etc.)
 
