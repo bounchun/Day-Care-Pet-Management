@@ -23,8 +23,14 @@ It offers comprehensive pet management features, including adding, updating, del
 
 
   Name, age, sex, owner
+
+  
   Days attending per week
+
+  
   Neutered status
+
+  
   Dog breed or cat favourite toy
   
 ####📋 **Pet Management**
@@ -43,23 +49,50 @@ It offers comprehensive pet management features, including adding, updating, del
 ####📊 **Reports & Insights**
 
 •	List all pets
+
+
 •	View dogs or cats only
+
 •	Identify dangerous dogs
+
+
 •	List indoor cats and count them
+
+
 •	Show neutered animals
+
+
 •	Calculate total weekly income using polymorphism
 
 ####🔍 **Search & Sort**
 
 •	Search pets by:
+
+
 o	Name
+
+
 o	Owner
+
+
 o	Breed (dogs)
+
+
 o	Favourite toy (cats)
+
+
 •	Sort pets by:
+
+
 o	Name
+
+
 o	Age
+
+
 o	Owner
+
+
 o	Days attending
 
 ##🏗️ **Project Structure**
@@ -94,18 +127,36 @@ Pet (Abstract Model)
    ↳ Cat
 ```
 The system is implemented using a layered architectural approach: 
+
+
 •	Driver
+
+
 Coordinates all user interactions, including menu presentation and navigation.
+
+
 •	DayCare (Controller)
+
+
 Manages the core business logic such as pet management, reporting, searching, sorting, and data persistence.
+
+
 •	Models (Pet, Dog, Cat)
+
+
 Define the domain entities and encapsulate pet-specific data and behaviour.
+
+
 •	Utilities
+
+
 Provide reusable helper methods for input processing, validation, and data formatting.
 
 ##🧠 **Object-Oriented Design**
 
 Abstraction & Inheritance
+
+
 •	Pet is an abstract superclass
 •	Dog and Cat extend Pet
 •	Shared behaviour is defined once and reused
