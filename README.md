@@ -214,7 +214,7 @@ This ensures the system behaves predictably even when users make mistakes.
 Pet data is saved and loaded using Java object serialization:
 
 
-•	All data is stored in a file called pets.dat
+•	All data is stored in a file called `pets.dat`
 
 
 •	The Pet class implements the Serializable interface, enabling all subclasses to be saved and restored
@@ -224,7 +224,7 @@ Pet data is saved and loaded using Java object serialization:
 
 
 
-## ▶️** How to Run**
+## ▶️ ** How to Run**
 
 1.	Open the project using an IDE (IntelliJ, Visual Studio, Eclipse, etc.)
 
@@ -232,7 +232,7 @@ Pet data is saved and loaded using Java object serialization:
 2.	Verify that Java version 15 or higher is installed
 
 	
-3.	Run the main.Driver class
+3.	Run the `main.Driver` class
 
 	
 4.	Use the console menu instructions to interact with the application
