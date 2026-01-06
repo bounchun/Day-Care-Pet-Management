@@ -17,7 +17,11 @@ It offers comprehensive pet management features, including adding, updating, del
 ####📝 **Pet Registration**
 
 •	Register a new pet as either a Dog or Cat
+
+
 •	Record important details:
+
+
   Name, age, sex, owner
   Days attending per week
   Neutered status
@@ -26,8 +30,14 @@ It offers comprehensive pet management features, including adding, updating, del
 ####📋 **Pet Management**
 
 •	View all pets currently in the day care
+
+
 •	Update pet details
+
+
 •	Remove pets safely with index validation
+
+
 •	Enforce day care capacity limits
 
 ####📊 **Reports & Insights**
