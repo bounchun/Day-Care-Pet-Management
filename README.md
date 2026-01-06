@@ -66,7 +66,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 #### 🔍 **Search & Sort**
 
-•	*Search pets by*:
+•	*Search pets by* :
 
 
 -Name
@@ -81,7 +81,7 @@ It offers comprehensive pet management features, including adding, updating, del
 -Favourite toy (cats)
 
 
-•	*Sort pets by*:
+•	*Sort pets by* :
 
 
 -Name
