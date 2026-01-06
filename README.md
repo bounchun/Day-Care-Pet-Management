@@ -19,7 +19,7 @@ It offers comprehensive pet management features, including adding, updating, del
 •	Register a new pet as either a Dog or Cat
 
 
-•	Record important details:
+•	*Record important details* : 
 
 
   -Name, age, sex, owner
