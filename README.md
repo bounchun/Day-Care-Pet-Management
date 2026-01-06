@@ -180,7 +180,7 @@ Provide reusable helper methods for input processing, validation, and data forma
 
 ## 🔒 **Input Validation and Error Handling**
 
-•	All numeric and textual user input is validated using the `ScannerInput` utility
+•	All numeric and textual user input is validated using the ScannerInput utility
 
 
 •	Menu options are checked to ensure selections fall within valid ranges
