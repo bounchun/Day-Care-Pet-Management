@@ -53,6 +53,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 •	View dogs or cats only
 
+
 •	Identify dangerous dogs
 
 
@@ -62,7 +63,7 @@ It offers comprehensive pet management features, including adding, updating, del
 •	Show neutered animals
 
 
-•	Calculate total weekly income using polymorphism
+•	Calculate total weekly income 
 
 #### 🔍 **Search & Sort**
 
