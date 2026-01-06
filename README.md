@@ -66,7 +66,7 @@ It offers comprehensive pet management features, including adding, updating, del
 
 #### 🔍 **Search & Sort**
 
-•	Search pets by:
+•	*Search pets by*:
 
 
 -Name
@@ -81,7 +81,7 @@ It offers comprehensive pet management features, including adding, updating, del
 -Favourite toy (cats)
 
 
-•	Sort pets by:
+•	*Sort pets by*:
 
 
 -Name
@@ -224,7 +224,7 @@ Pet data is saved and loaded using Java object serialization:
 
 
 
-## ▶️ ** How to Run**
+## ▶️ **How to Run**
 
 1.	Open the project using an IDE (IntelliJ, Visual Studio, Eclipse, etc.)
 
