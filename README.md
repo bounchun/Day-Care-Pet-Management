@@ -251,6 +251,7 @@ Pet data is saved and loaded using Java object serialization:
 ==>>
 ```
 
+5. Choose an option (1, 2, 3, or 4) to open its submenu.
 
 ## 🧪 **Sample Usage**
 
