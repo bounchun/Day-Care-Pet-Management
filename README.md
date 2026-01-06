@@ -279,7 +279,7 @@ Pet data is saved and loaded using Java object serialization:
 
 •	All sorting operations are implemented manually, without relying on built-in library sort methods
 
-🚀 Future Expansion
+## 🚀 **Future Expansion**
 
 The system is designed to support:
 
@@ -294,7 +294,11 @@ The system is designed to support:
 **Author**
 
 Boun Chun
+
+
 Pet Day Care Management System
+
+
 Version 1.0
 
 
