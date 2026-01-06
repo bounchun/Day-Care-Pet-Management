@@ -22,16 +22,16 @@ It offers comprehensive pet management features, including adding, updating, del
 •	Record important details:
 
 
-  Name, age, sex, owner
+  -Name, age, sex, owner
 
   
-  Days attending per week
+  -Days attending per week
 
   
-  Neutered status
+  -Neutered status
 
   
-  Dog breed or cat favourite toy
+  -Dog breed or cat favourite toy
   
 ####📋 **Pet Management**
 
@@ -69,31 +69,31 @@ It offers comprehensive pet management features, including adding, updating, del
 •	Search pets by:
 
 
-o	Name
+-Name
 
 
-o	Owner
+-Owner
 
 
-o	Breed (dogs)
+-Breed (dogs)
 
 
-o	Favourite toy (cats)
+-Favourite toy (cats)
 
 
 •	Sort pets by:
 
 
-o	Name
+-Name
 
 
-o	Age
+-Age
 
 
-o	Owner
+-Owner
 
 
-o	Days attending
+-Days attending
 
 ##🏗️ **Project Structure**
 
